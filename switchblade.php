@@ -220,11 +220,11 @@ $postcode = $matches1[1][0];
 
 // Proxy Configuration
 $rp1 = array(
-    1 => 'URPROXY',
-    2 => 'URPROXY',
-    3 => 'URPROXY',
-    4 => 'URPROXY',
-    5 => 'URPROXY',
+    1 => '38.154.227 167',
+    2 => '185.199.229.156',
+    3 => '185.199.228.220',
+    4 => '185.199.231.45',
+    5 => '188.74.183.10',
     ); 
     $rpt = array_rand($rp1);
     $rotate = $rp1[$rpt];
